@@ -1,3 +1,20 @@
+.display-row {
+  display: flex;
+  flex-flow: row column;
+}
+.display-col {
+  display: flex;
+  flex-flow: column wrap;
+}
+.just-cent {
+  justify-content: center;
+}
+.just-space-btw {
+  justify-content: space-between;
+}
+.align-cent {
+  align-items: center;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -160,6 +177,34 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.nav {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #F1F1F1;
+}
+.nav h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: #23293B;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.nav nav {
+  display: flex;
+  flex-flow: row column;
+  justify-content: space-between;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.nav nav a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #23293B;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -169,6 +214,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+img {
+  display: block;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
 }
 .home .intro h2 {
   padding: 15px;
