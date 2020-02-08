@@ -31,7 +31,7 @@ img {
       border-radius: 20px;
       height: 100%;
     }
-    @media @mob500{
+    @media @phone{
       .blast {
         width: 90%;
         margin: 5% auto;
@@ -79,10 +79,13 @@ img {
         width: 100px;
         height: 30px;
         font-size: 2.5rem;
-        .btn-color (@btn-bg-color, @porcelain);
+        .button-color(#22283A, #f6f7f8);
         border: 1px solid @border-real;
         text-align: center;
         border-radius: 10px;
+        &:hover {
+          .button-color(#0E5382, #B0AA9A);
+        }
         @media @phone {
           width: 100%;
           text-align: center;
