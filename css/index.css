@@ -284,9 +284,31 @@ img {
   width: 100px;
   height: 30px;
   font-size: 2.5rem;
+  background: #22283A;
+  color: #F6F7F8;
   border: 1px solid #dee2e6;
   text-align: center;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+  }
+  .home .walk .walk-text .btn p {
+    margin-top: 12.25px;
+  }
+}
+@media (max-width: 500px) {
+  .home .walk {
+    flex-direction: column-reverse;
+    padding: 5px;
+  }
+  .home .walk .walk-text {
+    width: 95%;
+    margin: 2% auto;
+  }
 }
 .home .walk-img {
   width: 46%;
@@ -296,4 +318,10 @@ img {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .walk-img {
+    width: 95%;
+    margin: 5% auto;
+  }
 }
