@@ -1,1 +1,35 @@
 // Mixins Here
+
+
+.display-row {
+    display: flex;
+    flex-flow: row column;
+}
+
+.display-col {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.just-cent {
+    justify-content: center;
+}
+
+.just-space-btw {
+    justify-content: space-between;
+}
+
+.align-cent {
+    align-items: center;
+}
+
+.button-color(@bg-color; @color) {
+    background: @bg-color;
+    color: @color;
+}
+
+.button-mes(@width; @height; @bord-rad) {
+    width: @width;
+    height: @height;
+    border-radius: @bord-rad;
+}

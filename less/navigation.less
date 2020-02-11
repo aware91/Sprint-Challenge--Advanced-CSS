@@ -1,1 +1,31 @@
 // Navigation code here
+.nav {
+    .display-col;
+    .just-space-btw;
+    width: 100%;
+    background-color: @nav-bg;
+    border: 1px solid @nav-border;
+    position: fixed;
+	top: 0;
+	overflow: hidden;
+    h1 {
+        font-size: 4rem;
+        text-align: center;
+        color: @nav-font;
+        .container;
+        margin: 1% auto;
+    }
+    nav {
+        .display-row;
+        .just-space-btw;
+        .align-cent;
+        .container;
+        max-width: 400px;
+        margin: 1% auto;
+        a {
+            font-size: 2rem;
+            text-decoration: none;
+            color: @nav-font;
+        }
+    }
+}
